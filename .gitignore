@@ -1,0 +1,10 @@
+node_modules
+.VSCodeCounter
+.vscode
+.env
+questions.json
+pack.json
+dist
+examples.txt
+clear
+players.ts

@@ -1,0 +1,51 @@
+{
+  "name": "backend",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "dev": "tsx watch src/server.ts",
+    "build": "npx tsc",
+    "start": "npx drizzle-kit push && node dist/server.js",
+    "generate:schema": "npx drizzle-kit push"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.0.3",
+    "@types/pg": "^8.16.0",
+    "@types/string-similarity": "^4.0.2",
+    "@types/supertest": "^6.0.3",
+    "@vitest/ui": "^4.0.16",
+    "supertest": "^7.1.4",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.16"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.45.1",
+    "drizzle-kit": "^0.31.8",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.16.3",
+    "react-router-dom": "^7.11.0",
+    "resend": "^6.6.0",
+    "string-similarity": "^4.0.4",
+    "uuid": "^13.0.0"
+  }
+}

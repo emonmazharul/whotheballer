@@ -1,0 +1,8 @@
+node_modules
+dist
+examples.txt
+questions.json
+.env
+clear
+pack.json
+players.ts
